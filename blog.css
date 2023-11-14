@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  margin: 5px 0;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  color: darkslategray;
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 5px 5px;
+}
+
+.wrapper {
+  margin: 15px auto;
+}

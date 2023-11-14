@@ -1,0 +1,52 @@
+<html>
+  <header>
+    <title>Assignment 3 Code Blog</title>
+    <link rel="stylesheet" href="blog.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </header>
+  <body>
+    <div class="wrapper">
+      <h1>Assignment 3 Code Blog</h1>
+      <h3>Luke Frugia</h3>
+      <h3>11/13/23</h3>
+    </div>
+    <h2>What was challenging about Assignment 3:</h2>
+    <p>
+      This was a challenging assignment for me. This was my first time scripting
+      in Javascript, so it was a learning experience for me. The most
+      challenging things I faced when writing
+      <a href="index.html">Assignment 3</a> were:
+    </p>
+    <ul>
+      <li>Showing the modal.</li>
+      <li>Creating the new post HTML with Javascript.</li>
+      <li>Adding the data attributes to the posts.</li>
+      <li>Adding new posts after learning how to refilter.</li>
+      <li>Refiltering with <i>*all*</i> the posts.</li>
+    </ul>
+    <h2>What I learned:</h2>
+    <p>
+      After I found the modal HTML and CSS, I learned how to change the CSS
+      styling with Javascript from this
+      <a
+        href="https://medium.com/developerhelps/getelementbyid-display-none-faf96b4d24b0"
+        >webpage</a
+      >
+      and implemented it in the buttonClickHandler and closePopup functions.
+    </p>
+
+    <p>
+      It took me some googling to figure out how to add data attributes when I
+      was creating new posts. Before I starting implementing refiltering, I
+      added these new posts to the posts with getElementById("posts"). This
+      broke because I was deleting everything in the posts div and using an
+      NodeArray that stored the original posts to refilter. It ended up taking a
+      bit of Googling and talking with
+      <a href="https://chat.openai.com/">ChatGPT</a> to figure out that I needed
+      to use Array.from to push a post to the array.
+    </p>
+  </body>
+</html>
